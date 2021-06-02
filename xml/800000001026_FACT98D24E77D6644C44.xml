@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0"
+	xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"
+	xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0"
+	xmlns:cfe="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cca="http://www.sat.gob.gt/face2/CobroXCuentaAjena/0.1.0" Version="0.1"
+	xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales Tipo="FACT" FechaHoraEmision="2021-06-01T17:16:55" CodigoMoneda="GTQ" />
+				<dte:Emisor NITEmisor="800000001026" NombreEmisor="TALLER DE ZAPATERIA ALLAN ROSS" CodigoEstablecimiento="1" NombreComercial="Establecimiento1" AfiliacionIVA="GEN">
+					<dte:DireccionEmisor>
+						<dte:Direccion>04 AVE. LTE. 157 COL. STA. MARTA 00-000   ZONA 19 </dte:Direccion>
+						<dte:CodigoPostal>01000</dte:CodigoPostal>
+						<dte:Municipio>GUATEMALA</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor IDReceptor="44053592" NombreReceptor="DE LEON,RONQUILLO,,CRISTIAN,RAFAEL">
+					<dte:DireccionReceptor>
+						<dte:Direccion>32 AVENIDA 13 CALLE, , 30-30, , Zona: 3, COLONIA VALLE VERDE</dte:Direccion>
+						<dte:CodigoPostal>01005</dte:CodigoPostal>
+						<dte:Municipio>.</dte:Municipio>
+						<dte:Departamento>.</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase TipoFrase="1" CodigoEscenario="1" />
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item NumeroLinea="1" BienOServicio="B">
+						<dte:Cantidad>5.0000000000</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>Pan 0.45</dte:Descripcion>
+						<dte:PrecioUnitario>0.450000</dte:PrecioUnitario>
+						<dte:Precio>2.250000</dte:Precio>
+						<dte:Descuento>0</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>2.008929</dte:MontoGravable>
+								<dte:MontoImpuesto>0.241071</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>2.25</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.241071" />
+					</dte:TotalImpuestos>
+					<dte:GranTotal>2.25</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+			<dte:Certificacion>
+				<dte:NITCertificador>108151654</dte:NITCertificador>
+				<dte:NombreCertificador>CORPOSISTEMAS, SOCIEDAD ANONIMA</dte:NombreCertificador>
+				<dte:NumeroAutorizacion Serie="A7202785" Numero="971590827">A7202785-39E9-4CAB-876C-94CF940ED2CB</dte:NumeroAutorizacion>
+				<dte:FechaHoraCertificacion>2021-06-01T17:16:55</dte:FechaHoraCertificacion>
+			</dte:Certificacion>
+		</dte:DTE>
+		<dte:Adenda>
+			<Adicionales
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				xmlns="Schema-totalletras">
+				<TotalEnLetras>DOS CON 25/100 QUETZALES </TotalEnLetras>
+			</Adicionales>
+		</dte:Adenda>
+	</dte:SAT>
+</dte:GTDocumento>
