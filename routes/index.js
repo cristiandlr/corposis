@@ -51,7 +51,7 @@ function soapPOST_DOCUMENT_SAT(wsUrl, xmlBase64, idInterno, nitEmisor) {
 		const options = {};
 		soap.createClient(wsUrl, options, function(err, client) {
 			if (err) {
-				rejects(err);
+				reject(err);
 			}
 
 			const method = client['RequestTransaction'];
